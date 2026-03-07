@@ -15,3 +15,8 @@ keywords:
   - observability
 maintainers:
   - name: ownkube
+annotations:
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: |
+    - name: GitHub
+      url: https://github.com/ownkube/kubernetes-events-exporter

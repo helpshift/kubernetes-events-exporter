@@ -24,21 +24,9 @@ type Counters struct {
 	KubeApiReadRequests  prometheus.Counter
 }
 
-type promLogger struct{}
-
-func (pl promLogger) Println(v ...interface{}) {
-	slog.Error(fmt.Sprint(v...))
-}
-
-func (pl promLogger) Log(v ...interface{}) error {
-	slog.Info(fmt.Sprint(v...))
-	return nil
-}
-
 func Init(addr string, tlsConf string) {
 	prometheus.MustRegister(collectors.NewBuildInfoCollector())
 
-	promLogger := promLogger{}
 	metricsPath := "/metrics"
 
 	http.Handle(metricsPath, promhttp.HandlerFor(
@@ -79,7 +67,7 @@ func Init(addr string, tlsConf string) {
 		WebConfigFile:      &tlsConf,
 	}
 
-	go web.ListenAndServe(&metricsServer, &metricsFlags, promLogger)
+	go web.ListenAndServe(&metricsServer, &metricsFlags, slog.Default())
 }
 
 func NewCounters(namePrefix string) *Counters {

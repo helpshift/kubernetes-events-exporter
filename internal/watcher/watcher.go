@@ -58,7 +58,7 @@ func NewWatcher(config *rest.Config, namespace string, MaxEventAgeSeconds int64,
 	return w
 }
 
-func (e *Watcher) OnAdd(obj interface{}) {
+func (e *Watcher) OnAdd(obj interface{}, isInInitialList bool) {
 	ev := obj.(*corev1.Event)
 	e.onEvent(ev)
 }

@@ -1,11 +1,9 @@
-# Default values for kubernetes-events-exporter
-
 replicaCount: 1
 
 image:
-  repository: ghcr.io/ownkube/kubernetes-events-exporter
+  repository: 381491828628.dkr.ecr.ap-south-1.amazonaws.com/kubernetes-events-exporter
   pullPolicy: IfNotPresent
-  tag: ""  # defaults to appVersion
+  tag: "0.1.2"  # defaults to appVersion; override per environment
 
 imagePullSecrets: []
 nameOverride: ""

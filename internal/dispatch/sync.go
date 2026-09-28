@@ -4,8 +4,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
-	"github.com/ownkube/kubernetes-events-exporter/internal/output"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/output"
 )
 
 type SyncDispatcher struct {

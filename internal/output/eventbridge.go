@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/client"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/eventbridge"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type EventBridgeConfig struct {

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	lru "github.com/hashicorp/golang-lru/v2"
-	"github.com/ownkube/kubernetes-events-exporter/internal/observability"
+	"github.com/helpshift/kubernetes-events-exporter/internal/observability"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"

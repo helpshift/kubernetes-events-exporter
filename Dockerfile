@@ -2,7 +2,7 @@ FROM --platform=$BUILDPLATFORM golang:1.26 AS builder
 
 ARG VERSION
 ARG TARGETOS TARGETARCH
-ENV PKG github.com/ownkube/kubernetes-events-exporter/internal/buildinfo
+ENV PKG github.com/helpshift/kubernetes-events-exporter/internal/buildinfo
 
 ADD . /app
 WORKDIR /app

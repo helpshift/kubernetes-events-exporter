@@ -3,7 +3,7 @@ package routing
 import (
 	"regexp"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 func matchString(pattern, s string) bool {

@@ -1,8 +1,8 @@
 package routing
 
 import (
-	"github.com/ownkube/kubernetes-events-exporter/internal/dispatch"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/dispatch"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type RoutingRule struct {

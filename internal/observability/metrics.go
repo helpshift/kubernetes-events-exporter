@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/buildinfo"
+	"github.com/helpshift/kubernetes-events-exporter/internal/buildinfo"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promauto"

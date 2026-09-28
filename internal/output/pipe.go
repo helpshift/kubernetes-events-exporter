@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type PipeConfig struct {

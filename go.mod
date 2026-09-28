@@ -1,4 +1,4 @@
-module github.com/ownkube/kubernetes-events-exporter
+module github.com/helpshift/kubernetes-events-exporter
 
 go 1.26.0
 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type Handler interface {

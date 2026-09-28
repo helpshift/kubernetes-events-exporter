@@ -9,7 +9,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type WebhookConfig struct {

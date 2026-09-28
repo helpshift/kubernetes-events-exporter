@@ -13,7 +13,7 @@ import (
 	"unicode"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 	"google.golang.org/api/option"
 )
 

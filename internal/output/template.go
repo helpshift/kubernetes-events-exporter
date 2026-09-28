@@ -6,7 +6,7 @@ import (
 	"text/template"
 
 	"github.com/Masterminds/sprig/v3"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 func RenderTemplate(ev *event.EnrichedEvent, text string) (string, error) {

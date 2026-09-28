@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/cluster"
-	"github.com/ownkube/kubernetes-events-exporter/internal/output"
-	"github.com/ownkube/kubernetes-events-exporter/internal/routing"
+	"github.com/helpshift/kubernetes-events-exporter/internal/cluster"
+	"github.com/helpshift/kubernetes-events-exporter/internal/output"
+	"github.com/helpshift/kubernetes-events-exporter/internal/routing"
 	"gopkg.in/yaml.v3"
 	"k8s.io/client-go/rest"
 )

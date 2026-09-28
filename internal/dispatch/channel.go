@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
-	"github.com/ownkube/kubernetes-events-exporter/internal/observability"
-	"github.com/ownkube/kubernetes-events-exporter/internal/output"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/observability"
+	"github.com/helpshift/kubernetes-events-exporter/internal/output"
 )
 
 type AsyncDispatcher struct {

@@ -3,7 +3,7 @@ package output
 import (
 	"context"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type InMemoryConfig struct {

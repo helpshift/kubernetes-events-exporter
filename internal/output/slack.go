@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"sort"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 	"github.com/slack-go/slack"
 )
 

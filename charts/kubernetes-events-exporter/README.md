@@ -28,7 +28,7 @@ helm uninstall kubernetes-events-exporter --namespace monitoring
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
 | `replicaCount` | int | `1` | Number of replicas |
-| `image.repository` | string | `ghcr.io/ownkube/kubernetes-events-exporter` | Container image repository |
+| `image.repository` | string | `ghcr.io/helpshift/kubernetes-events-exporter` | Container image repository |
 | `image.pullPolicy` | string | `IfNotPresent` | Image pull policy |
 | `image.tag` | string | `""` | Image tag (defaults to `appVersion`) |
 | `imagePullSecrets` | list | `[]` | Image pull secrets |

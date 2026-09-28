@@ -9,13 +9,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/cluster"
-	"github.com/ownkube/kubernetes-events-exporter/internal/config"
-	"github.com/ownkube/kubernetes-events-exporter/internal/dispatch"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
-	"github.com/ownkube/kubernetes-events-exporter/internal/observability"
-	"github.com/ownkube/kubernetes-events-exporter/internal/pipeline"
-	"github.com/ownkube/kubernetes-events-exporter/internal/watcher"
+	"github.com/helpshift/kubernetes-events-exporter/internal/cluster"
+	"github.com/helpshift/kubernetes-events-exporter/internal/config"
+	"github.com/helpshift/kubernetes-events-exporter/internal/dispatch"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/observability"
+	"github.com/helpshift/kubernetes-events-exporter/internal/pipeline"
+	"github.com/helpshift/kubernetes-events-exporter/internal/watcher"
 )
 
 var (

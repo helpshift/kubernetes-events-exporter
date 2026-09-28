@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
-	"github.com/ownkube/kubernetes-events-exporter/internal/observability"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/observability"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/client-go/dynamic"

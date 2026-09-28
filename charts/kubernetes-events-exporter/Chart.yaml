@@ -2,21 +2,19 @@ apiVersion: v2
 name: kubernetes-events-exporter
 description: Export Kubernetes events to multiple destinations with routing and filtering
 type: application
+# version and appVersion are kept in sync by the release CI workflow (release.yml).
+# Do not edit these by hand — push a git tag (v0.2.0) to trigger a release.
 version: 0.1.2
 appVersion: "0.1.2"
-home: https://github.com/ownkube/kubernetes-events-exporter
+home: https://github.com/helpshift/kubernetes-events-exporter
 sources:
-  - https://github.com/ownkube/kubernetes-events-exporter
+  - https://github.com/helpshift/kubernetes-events-exporter
 keywords:
   - kubernetes
   - events
   - exporter
   - monitoring
   - observability
+# TODO: update maintainer name/email to your team
 maintainers:
-  - name: ownkube
-annotations:
-  artifacthub.io/license: Apache-2.0
-  artifacthub.io/links: |
-    - name: GitHub
-      url: https://github.com/ownkube/kubernetes-events-exporter
+  - name: vivek

@@ -5,7 +5,7 @@ import (
 
 	"github.com/opsgenie/opsgenie-go-sdk-v2/alert"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 )
 
 type OpsgenieConfig struct {

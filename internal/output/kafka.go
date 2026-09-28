@@ -12,7 +12,7 @@ import (
 	"os"
 
 	"github.com/IBM/sarama"
-	"github.com/ownkube/kubernetes-events-exporter/internal/event"
+	"github.com/helpshift/kubernetes-events-exporter/internal/event"
 	"github.com/xdg-go/scram"
 )
 
